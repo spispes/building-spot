@@ -1,4 +1,5 @@
 <p>
-<app-map [place]="place"></app-map>
-  Adresse ist : {{place}}
+  <app-map [place]="place"></app-map>
+  <input  class="eingabe" placeholder="Addresse hier eingeben"  (keyup)="eingabe(input.value)" #input  >
+
 </p>
