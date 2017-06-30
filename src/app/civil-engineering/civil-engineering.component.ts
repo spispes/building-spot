@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-civil-engineering',
@@ -6,8 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./civil-engineering.component.css']
 })
 export class CivilEngineeringComponent implements OnInit {
-  place : string;
-  constructor() { this.place = "Hamburg sommerhuder Straße 12, Germany";}
+  @Input()
+  place: string;
+
+  constructor() { this.place = "";
+  }
+
+  eingabe(Adresse) {
+    this.place = Adresse;
+  }
 
   ngOnInit() {
 
