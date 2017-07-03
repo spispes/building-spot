@@ -14,6 +14,8 @@ import {JsonpModule} from '@angular/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {NguiMapModule} from '@ngui/map';
 import { MapComponent } from './map/map.component';
+import { BuildingSpotHighlevelComponent } from './building-spot-highlevel/building-spot-highlevel.component';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { MapComponent } from './map/map.component';
     CivilEngineeringComponent,
     BuildingConstructionComponent,
     CarouselComponent,
-    MapComponent
+    MapComponent,
+    BuildingSpotHighlevelComponent,
+    NavigationBarComponent
   ],
   imports: [
     BrowserModule,

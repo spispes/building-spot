@@ -9,6 +9,7 @@ export class BuildingConstructionComponent implements OnInit {
 
   constructor() { }
 
+
   ngOnInit() {
   }
 

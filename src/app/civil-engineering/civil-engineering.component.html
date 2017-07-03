@@ -1,5 +1,9 @@
-<p>
+<div class="container">
   <app-map [place]="place"></app-map>
-  <input  class="eingabe" placeholder="Addresse hier eingeben"  (keyup)="eingabe(input.value)" #input  >
+</div>
 
-</p>
+<div class="form-group">
+  <label for=""></label>
+  <input type="text" name="" id="" class="form-control" placeholder="Addresse hier eingeben" aria-describedby="helpId" (keyup)="eingabe(input.value)" #input>
+  <small id="helpId" class="text-muted">Type any address you like</small>
+</div>
