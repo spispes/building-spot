@@ -1,20 +1,15 @@
 # This image will be based on the oficial nodejs docker image
-FROM node:latest
+FROM node:boron
 
-# Set in what directory commands will run
-WORKDIR /home/app
+RUN mkdir -p /usr/src/building-spot
+WORKDIR /usr/src/building-spot
 
-# Put all our code inside that directory that lives in the container
-ADD . /home/app
-
-# Install dependencies
-RUN rm -r node_modules
-RUN npm uninstall @angular/cli
-RUN npm install -g @angular/cli
+COPY package.json /usr/src/building-spot
 RUN npm install
+RUN npm install -g @angular/cli
+COPY . /usr/src/building-spot
 
-# Tell Docker we are going to use this port
-EXPOSE 4200
+EXPOSE 4300
 
-# The command to run our app when the container is run
-CMD ["NG SERVE"]
+# RUN ["ng", "serve", "-port", "4300"]
+
