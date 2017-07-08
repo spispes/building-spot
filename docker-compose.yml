@@ -1,29 +1,7 @@
-webserver:
-  container_name: webserver
-  build: ./webserver
-  dockerfile: Dockerfile
-  expose:
-    - 80
-  ports:
-    - 0.0.0.0:80:80
-  volumes:
-    - ./logs:/var/log/nginx/
-    - ./src/app/image:/var/www/html/image/
-    - ./webserver/index:/var/www/html/
-    - ./webserver/config:/etc/nginx/
-  entrypoint:
-    - nginx
-    - -g daemon off;
-buildingspot:
-  container_name: buildingspot
-  build: ./appserver
-  dockerfile: Dockerfile
-  volumes:
-    - ./:/usr/src/building-spot
-  command: ["npm", "install"]
-
-  expose:
-    - 4300
-  ports:
-    - 0.0.0.0:4300:4300
-
+client:
+    build: .
+    ports:
+        - "4300:4300"
+    volumes:
+        - .:/usr/src/building-spot
+    command: [npm start]
