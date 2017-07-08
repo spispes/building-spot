@@ -4,4 +4,4 @@ client:
         - "4300:4300"
     volumes:
         - .:/usr/src/building-spot
-    command: [ng serve -port 4300]
+    command: [npm start]

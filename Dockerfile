@@ -6,10 +6,10 @@ WORKDIR /usr/src/building-spot
 
 COPY package.json /usr/src/building-spot
 RUN npm install
-RUN npm install -g @angular/cli
+#RUN npm install -g @angular/cli
 COPY . /usr/src/building-spot
 
 EXPOSE 4300
 
-# RUN ["ng", "serve", "-port", "4300"]
+CMD ["npm", "start"]
 
