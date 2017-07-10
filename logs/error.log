@@ -1,0 +1,4 @@
+2017/07/05 12:14:16 [emerg] 1#1: unknown directive "deamon" in command line
+2017/07/05 12:14:30 [emerg] 1#1: unknown directive "deamon" in command line
+2017/07/05 12:17:23 [emerg] 1#1: unexpected end of parameter, expecting ";" in command line
+2017/07/05 12:18:01 [emerg] 1#1: unknown directive "deamon" in command line

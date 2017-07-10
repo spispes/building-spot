@@ -1,0 +1,7 @@
+192.168.99.1 - - [05/Jul/2017:12:21:00 +0000] "GET / HTTP/1.1" 200 581 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Kitematic/0.13.1 Chrome/45.0.2454.85 Electron/0.35.4 Safari/537.36"
+192.168.99.1 - - [05/Jul/2017:12:21:19 +0000] "GET / HTTP/1.1" 200 581 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+192.168.99.1 - - [05/Jul/2017:12:21:20 +0000] "GET /favicon.ico HTTP/1.1" 404 209 "http://192.168.99.100/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+192.168.99.1 - - [05/Jul/2017:12:21:37 +0000] "GET /image/baustelle_1.jpg HTTP/1.1" 200 14938 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+192.168.99.1 - - [06/Jul/2017:10:57:26 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Kitematic/0.13.1 Chrome/45.0.2454.85 Electron/0.35.4 Safari/537.36"
+192.168.99.1 - - [06/Jul/2017:10:57:44 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+192.168.99.1 - - [06/Jul/2017:10:59:15 +0000] "GET / HTTP/1.1" 200 588 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
